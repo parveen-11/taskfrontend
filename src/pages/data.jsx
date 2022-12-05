@@ -40,7 +40,7 @@ export default function Data() {
     deleteCv = await deleteCv.json() 
     if(deleteCv.status === true){
        setShow(false);
-       toast.success("Application Delete Successfully")
+       toast.success("Record Deleted Successfully")
     }
     else{
       setShow(false);
@@ -95,7 +95,6 @@ export default function Data() {
           <DataTable pagination columns={columns} data={data} />
         </div>
       </div>
-
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
           <Modal.Title>Confirm Delete !</Modal.Title>
