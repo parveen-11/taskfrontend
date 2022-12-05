@@ -1,0 +1,46 @@
+.data_box {
+    float: left;
+    width: 100%;
+    margin: 30px 0 310px 0;
+    border: 1px solid transparent;
+}
+
+.download-btn {
+    background: transparent;
+    border: 1px solid #05b3a4;
+    color: #05b3a4;
+    margin-left: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+}
+
+.delete-btn {
+    background: transparent;
+    border: 1px solid #FD5E6E;
+    color: #FD5E6E;
+    margin-left: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+}
+
+.eye-btn {
+    background: transparent;
+    border: 1px solid #3498db;
+    color: #3498db;
+    margin-left: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+}
+
+
+.sc-eDWCr.hbotQl {
+    font-size: 15px;
+    font-weight: 600;
+    color: #05b3a4;
+}
